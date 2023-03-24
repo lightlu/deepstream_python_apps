@@ -20,11 +20,22 @@ Prerequisites:
 - Python 3.8
 - Gst-python
 
-#Deepstream msgbroker supports sending messages to Azure(mqtt) IOThub, kafka and AMQP broker(rabbitmq)
+#Deepstream msgbroker supports sending messages to MQTT, Azure(mqtt) IOThub, kafka and AMQP broker(rabbitmq)
 
 Dependencies
 ------------
  $ sudo apt-get update
+
+ MQTT:
+ ----------
+    $ sudo apt-get install -y libcurl4-openssl-dev libssl-dev uuid-dev libglib2.0 libglib2.0-dev
+    $ git clone --depth 1 --branch v1.3.10 https://github.com/eclipse/paho.mqtt.c paho.mqtt.c
+    $ pushd paho.mqtt.c
+    $ make
+    $ sudo make install
+    $ popd
+    $ sudo cp aarch64/libnvds_mqtt_proto<version>.so /opt/nvidia/deepstream/deepstream-<version>/lib/libnvds_mqtt_proto.so
+    $ sudo ldconfig
 
  Azure Iot:
  ----------
@@ -52,11 +63,13 @@ SETUP:
   1.Use --proto-lib or -p command line option to set the path of adaptor library.
     Adaptor library can be found at /opt/nvidia/deepstream/deepstream-<version>/lib
 
+    MQTT lib            - libnvds_mqtt_proto.so
     kafka lib           - libnvds_kafka_proto.so
     azure device client - libnvds_azure_proto.so
     AMQP lib            - libnvds_amqp_proto.so
 
   2.Use --conn-str command line option as required to set connection to backend server.
+    For MQTT            - Connection string of format:  host;port;topic
     For Azure           - Full Azure connection string
     For Kafka           - Connection string of format:  host;port;topic
     For Amqp            - Connection string of format:  host;port;username. Password to be provided in cfg_amqp.txt
@@ -131,8 +144,8 @@ SETUP:
         You can ignore --conn-str commandline option and provide full connection details within cfg file
 
   7. Enable logging:
-       Go through the README to setup & enable logs for the messaging libraries(kafka, azure, amqp)
-         $ cat ../../../tools/nvds_logger/README
+       Go through the README to setup & enable logs for the messaging libraries(mqtt, kafka, azure, amqp)
+         $ cat /opt/nvidia/deepstream/deepstream-<version>/sources/tools/nvds_logger/README
 
 To run:
   $ python3 deepstream_test_4.py -i <H264 filename> -p <Proto adaptor library> --conn-str=<Connection string> -s <0/1>

@@ -44,7 +44,7 @@ We currently provide the following sample applications:
 * <b>UPDATED</b> [deepstream-test1](apps/deepstream-test1) -- 4-class object detection pipeline - now also demonstrates support for new nvstreammux
 * [deepstream-test2](apps/deepstream-test2) -- 4-class object detection, tracking and attribute classification pipeline
 * [deepstream-test3](apps/deepstream-test3) -- multi-stream pipeline performing 4-class object detection - now also supports triton inference server, no-display mode, file-loop and silent mode
-* [deepstream-test4](apps/deepstream-test4) -- msgbroker for sending analytics results to the cloud
+* [deepstream-test4](apps/deepstream-test4) -- msgbroker for sending analytics results to the cloud via MQTT, Azure(mqtt) IOThub, kafka and AMQP broker(rabbitmq)
 * [deepstream-imagedata-multistream](apps/deepstream-imagedata-multistream) -- multi-stream pipeline with access to image buffers
 * [deepstream-ssd-parser](apps/deepstream-ssd-parser) -- SSD model inference via Triton server with output parsing in Python
 * [deepstream-test1-usbcam](apps/deepstream-test1-usbcam) -- deepstream-test1 pipeline with USB camera input
