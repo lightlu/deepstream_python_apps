@@ -1,0 +1,274 @@
+{
+	"formatVersion": 1,
+	"appVersion": "0.59.1",
+	"files": [
+		{
+			"isClone": false,
+			"noteId": "PNroYsTttq40",
+			"notePath": [
+				"PNroYsTttq40"
+			],
+			"title": "README_mqtt",
+			"notePosition": 40,
+			"prefix": null,
+			"isExpanded": true,
+			"type": "text",
+			"mime": "text/html",
+			"attributes": [
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "mCWrVbWbDKsa",
+					"isInheritable": false,
+					"position": 3
+				},
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "EeuunUxnF9dA",
+					"isInheritable": false,
+					"position": 5
+				},
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "EIQ8iR1yIyLU",
+					"isInheritable": false,
+					"position": 6
+				},
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "QZebiVPH08fC",
+					"isInheritable": false,
+					"position": 8
+				},
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "1ZcU9lyE1fM0",
+					"isInheritable": false,
+					"position": 9
+				},
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "E6YcPvRErtK2",
+					"isInheritable": false,
+					"position": 12
+				},
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "93LvFIQmbTY5",
+					"isInheritable": false,
+					"position": 13
+				},
+				{
+					"type": "relation",
+					"name": "imageLink",
+					"value": "k8EDTB3aFq8V",
+					"isInheritable": false,
+					"position": 14
+				}
+			],
+			"format": "markdown",
+			"dataFileName": "README_mqtt.md",
+			"dirFileName": "README_mqtt",
+			"children": [
+				{
+					"isClone": false,
+					"noteId": "mCWrVbWbDKsa",
+					"notePath": [
+						"PNroYsTttq40",
+						"mCWrVbWbDKsa"
+					],
+					"title": "image.png",
+					"notePosition": 30,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/png",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "ds_test4_readme.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "image.png"
+				},
+				{
+					"isClone": false,
+					"noteId": "EeuunUxnF9dA",
+					"notePath": [
+						"PNroYsTttq40",
+						"EeuunUxnF9dA"
+					],
+					"title": "image.png",
+					"notePosition": 50,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/png",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "image.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "1_image.png"
+				},
+				{
+					"isClone": false,
+					"noteId": "EIQ8iR1yIyLU",
+					"notePath": [
+						"PNroYsTttq40",
+						"EIQ8iR1yIyLU"
+					],
+					"title": "image.png",
+					"notePosition": 60,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/png",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "image.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "2_image.png"
+				},
+				{
+					"isClone": false,
+					"noteId": "QZebiVPH08fC",
+					"notePath": [
+						"PNroYsTttq40",
+						"QZebiVPH08fC"
+					],
+					"title": "ds_test4_display.png",
+					"notePosition": 80,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/jpg",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "ds_test4_display.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "ds_test4_display.png"
+				},
+				{
+					"isClone": false,
+					"noteId": "1ZcU9lyE1fM0",
+					"notePath": [
+						"PNroYsTttq40",
+						"1ZcU9lyE1fM0"
+					],
+					"title": "ds_test4_mqtt.png",
+					"notePosition": 90,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/png",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "ds_test4_mqtt.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "ds_test4_mqtt.png"
+				},
+				{
+					"isClone": false,
+					"noteId": "E6YcPvRErtK2",
+					"notePath": [
+						"PNroYsTttq40",
+						"E6YcPvRErtK2"
+					],
+					"title": "Figure1_DeepStream_App_adaptor_library_messaging_to_cloud.jpg",
+					"notePosition": 120,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/jpg",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "Figure1_DeepStream_App_adaptor_library_messaging_to_cloud.jpg",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "Figure1_DeepStream_App_adaptor"
+				},
+				{
+					"isClone": false,
+					"noteId": "93LvFIQmbTY5",
+					"notePath": [
+						"PNroYsTttq40",
+						"93LvFIQmbTY5"
+					],
+					"title": "Figure2_DS_plugin_gst-nvmsgbroker_nvds_msgapi.png",
+					"notePosition": 130,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/jpg",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "Figure2_DS_plugin_gst-nvmsgbroker_nvds_msgapi.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "Figure2_DS_plugin_gst-nvmsgbro"
+				},
+				{
+					"isClone": false,
+					"noteId": "k8EDTB3aFq8V",
+					"notePath": [
+						"PNroYsTttq40",
+						"k8EDTB3aFq8V"
+					],
+					"title": "ds_test4_exe_console_log.png",
+					"notePosition": 140,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "image",
+					"mime": "image/jpg",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "originalFileName",
+							"value": "ds_test4_exe_console_log.png",
+							"isInheritable": false,
+							"position": 1000
+						}
+					],
+					"dataFileName": "ds_test4_exe_console_log.png"
+				}
+			]
+		}
+	]
+}
